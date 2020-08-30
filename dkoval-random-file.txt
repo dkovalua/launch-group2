@@ -1,0 +1,23 @@
+import random
+i=1
+#while i<10:
+while exists("1589542567606.png"):
+#    i=i+1
+    while exists("1589540981708.png"):
+        click(getLastMatch().offset( random.randrange(-3, 3),random.randrange(-3, 3)))    
+        wait(1) 
+    while exists(Pattern("1589580338788.png").similar(0.90)):
+#    while exists("1589540892865.png"):
+        click(getLastMatch())
+        wait(1)    
+    if exists(Pattern("1589540494629.png").similar(0.90)): 
+        click(getLastMatch())
+        wait(2)
+        wait("1589540527166.png",30)a
+        click(getLastMatch())
+        wait("1589580010035.png",30)
+#        wait("1589540581534.png",30)
+        
+        click(getLastMatch())
+        wait("1589540635741.png",30)
+        click(getLastMatch())
